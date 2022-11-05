@@ -51,14 +51,14 @@ chats: {},
 global.targt = ''
 global.jwbb = ''
 global.teksft = ''
-global.called = false
+global.called = true
 global.Prefix = 'Multi'
-global.ownerNumber = '62881027694993'
-global.botName = 'ImanBot - Md' 
-global.owner = ['62881027694993']
-global.ownerName = 'Own-Iman'
-global.packName = 'Iman' 
-global.author = 'ImanBot✓'
+global.ownerNumber = '6283892969926'
+global.botName = 'Etez - Md' 
+global.owner = ['6285797375014']
+global.ownerName = 'Own-Etes'
+global.packName = 'Etez' 
+global.author = 'EtezBot✓'
 global.sessionName = 'ManikQr'
 global.limitawal = { premium: "∞", free: 100 }
 global.thumb = fs.readFileSync('./media/Manik.jpg')
@@ -758,8 +758,8 @@ Manik.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title"
   showAdAttribution: true,
   mediaType: 'VIDEO',
   mediaUrl: '',
-  title: 'ImanBot',
-  body: 'By Iman',
+  title: 'EtesBot',
+  body: 'By Etez',
   thumbnail: global.thumb,
   sourceUrl: 'ɑ'
   }}})
@@ -963,22 +963,22 @@ function clockString(ms) {
   return [h, ' H ', m, ' M ', s, ' S '].map(v => v.toString().padStart(2, 0)).join('')
 }
 const buttonsDefault = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6287873670287` } },
-			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/imannn17n` } },
+			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285797375014` } },
+			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/znxphoenix` } },
 			{ quickReplyButton: { displayText: `🧑 Owner`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `🛒 Shop Menu`, id: `${prefix}topupmenu` } },
 			{ quickReplyButton: { displayText: `📜 Dashboard`, id: `${prefix}dashboard` } }
 		]
 const buttonsFirst = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6287873670287` } },
-			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/imannn17n` } },
+			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285797375014` } },
+			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/znxphoenix` } },
 			{ quickReplyButton: { displayText: `📝 Menu`, id: `${prefix}menu` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `📜 Dashboard`, id: `${prefix}dashboard` } }
 		]
 const buttonsAnon = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6287873670287` } },
-			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/imannn17n` } },
+			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6285797375014` } },
+			{ urlButton: { displayText: `Instagram Owner`, url : `https://instagram.com/znxphoenix` } },
 			{ quickReplyButton: { displayText: `📱 Search`, id: `${prefix}search` } },
 			{ quickReplyButton: { displayText: `📲 Skip`, id: `${prefix}skip` } }
 		]
@@ -2091,7 +2091,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Penyemangatku
  ●Iman~_~
 
- © DESIGN: IMANOFFC`
+ © DESIGN: ETESOFFC`
  Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'ImanBot By Own-Iman√', mentions: [m.sender] })
 break 
 }
@@ -2152,7 +2152,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
   ●Penyemangatku
   ●Iman~_~
 
- © DESIGN: IMANOFFC`
+ © DESIGN:ETESOFFC`
  Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsFirst, footer: 'ImanBot- By-Iman√', mentions: [m.sender] })
 break 
 }
@@ -2568,7 +2568,7 @@ _Berikut Adalah Cara Deposit User!._
 _For Your Information, ManikBot Hanya Mendukung Deposit Melalui Ovo, Shopeepay, Dana, Qris Saja._
 
 _》Gopay : Chat Owner
-_》Dana : 0895385157376
+_》Dana  : Chat Owner
 _》Pulsa Tri/Xl : Chat Owner_
 
 _Jika Sudah Melakukan Transfer Harap Kirim Bukti Dengan Cara Mengirim Screenshot Dengan Caption, Contoh:_
@@ -2657,8 +2657,8 @@ Note: Jika Undefined Artinya Saldo Kamu Rp0
 Saldo Hanya Bisa Untuk Topup Saja, Tidak Bisa Ditarik!.`
 const listMessage = {
   text: isian,
-  footer: "Powered By @ImanOfficial",
-  title: "━━[ List Topup ImanBot ]━━",
+  footer: "Powered By @EtesOfficial",
+  title: "━━[ List Topup EtesBot ]━━",
   buttonText: "Klik Disini",
   sections
 }
@@ -4348,7 +4348,7 @@ function getVal(dm, game) {
 let shop = await topup(`${idff}`, null, `${totaldm}`, `${nopemu}`, "freefire")
 break
 }
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Etez Only! ]━━━━━━━━━━━━━━━\\
 
 case prefix+'say':
 let idfc = args[1]
@@ -7280,7 +7280,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'N:;Iman;;;'
     + 'FN:Iman\n'
     + 'ORG:Iman;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=62881027694993:+62 881-0276-94993\n' 
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6285797375014:+62 857-9737-5014\n' 
     + 'item1.X-ABLabel:Jika ingin Ngobrol dengan owner silahkan chat nomor di atas!\n'
     + 'item2.EMAIL;type=INTERNET:ownerbot@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
@@ -7299,7 +7299,7 @@ Manik.sendMessage(m.chat, { contacts: { displayName: 'Arya Manik√', contacts: 
     + 'N:;Iman;;;'
     + 'FN:Iman\n'
     + 'ORG:Iman;\n'
-    + 'item1.TEL;type=CELL;type=VOICE;waid=62881027694993:+62 881-0276-94993\n' 
+    + 'item1.TEL;type=CELL;type=VOICE;waid=6285797375014:+62 857-9737-5014\n' 
     + 'item1.X-ABLabel:Kalo mau bertanya tentang bot silahkan chat nomor tersebut!\n'
     + 'item2.EMAIL;type=INTERNET:ownerbot@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
@@ -7308,14 +7308,14 @@ Manik.sendMessage(m.chat, { contacts: { displayName: 'Arya Manik√', contacts: 
     + 'item4.ADR:;;Indonesia;;;;\n'
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-Manik.sendMessage(m.chat, { contacts: { displayName: 'Iman Official', contacts: [{ vcard }] } }, { quoted: m })
+Manik.sendMessage(m.chat, { contacts: { displayName: 'Etes Official', contacts: [{ vcard }] } }, { quoted: m })
 reply('Hai Kak Ini Adalah Nomor Author Saya')
             }
             break            
                     case prefix+'bug': case prefix+'report':{
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
                     	if(!text) reply `Enter The Bug Example\n\n${command.slice(1)} Menu Error `
-                    	Manik.sendMessage(`62881027694993@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
+                    	Manik.sendMessage(`6285797375014@s.whatsapp.net`, {text: `*Bug Report From:* wa.me/${m.sender.split("@")[0]}
 Report Message: ${text}` })
 reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, If You Play With This, Use This Feature Again And Again For No Reason, You Will Be Blocked For Sure !`)
                     }
@@ -7328,16 +7328,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/Manik.jpg')},
-                            hydratedFooterText: `ImanBot - Md Beta`,
+                            hydratedFooterText: `EtezBot - Md Beta`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/imannn17n'
+                                    url: 'https://instagram.com/znxphoenix'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Group',
-                                    url: 'https://chat.whatsapp.com/LKmg719N6Fo2CigYLfNMIL'
+                                    url: 'https://chat.whatsapp.com/GduQSOuZ6p41HH8uQ4tFJD'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -7930,7 +7930,7 @@ const reactionMessage = {
             }
 const listMessage = {
   text: `${ucapanWaktu} ${pushname} 👋\n\nBerikut Adalah List Item\nSilahkan Pilih Salah Satu!\n🗓 Tanggal : ${tanggal}\n🕰 Jam : ${moment().format("HH:mm:ss z")} `,
-  footer: "Powered By @Iman",
+  footer: "Powered By @Etes",
   buttonText: "Click Here!",
   sections: [{
                     title: groupName, rows: arr_rows
@@ -8197,7 +8197,7 @@ const axios = require('axios')
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "©ImanOfficial (owner bot)\nAffis Junianto (owner smm)",
+  footer: "©etesOfficial (owner bot)\nAffis Junianto (owner smm)",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
@@ -8229,7 +8229,7 @@ const sendMsg = await Manik.sendMessage(m.chat, listMessage)
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "©ImanOfficial (owner bot)\nAffis Junianto (owner smm)",
+  footer: "©etesOfficial (owner bot)\nAffis Junianto (owner smm)",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
@@ -8260,7 +8260,7 @@ case prefix+'view': {
                 }
 const listMessage = {
   text: `Pilih layanan sesuai dengan yang anda inginkan!\nBerikut adalah list yang bisa anda pilih, silahkan!.`,
-  footer: "©ImanOfficial (owner bot)\nAffis Junianto (owner smm)",
+  footer: "©etesOfficial (owner bot)\nAffis Junianto (owner smm)",
   buttonText: "Click Here!",
   sections: [{
                     title: "Sosmed Store",
