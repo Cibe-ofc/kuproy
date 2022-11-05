@@ -31,8 +31,8 @@ console.log(chalk.bold.green(figlet.textSync('Bot-MD', {
 font: 'Standard',
 horizontalLayout: 'default',
 vertilLayout: 'default',
-width: 80,
-whitespaceBreak: false
+width: 500,
+whitespaceBreak: true
 })))
 console.log(chalk.yellow(`\n                        ${chalk.yellow('[ Created By Sanzy ]')}\n\n${chalk.red('ManikBot-Md')} : ${chalk.white('WhatsApp Bot Multi Device')}\n${chalk.red('Follow Insta Dev')} : ${chalk.white('@Aryamanik___')}\n${chalk.red('Message Me On WhatsApp')} : ${chalk.white('+62 881-0276-94993')}\n${chalk.red('Donate')} : ${chalk.white('0881027694993 ( Dana/Pulsa )')}\n`))
 }
@@ -41,7 +41,7 @@ let { version, isLatest } = await fetchLatestBaileysVersion()
 const Manik = ManikConnect({
 logger: pino({ level: 'fatal' }),
 printQRInTerminal: true,
-browser: ['Bot-Md','Safari','1.0.0'],
+browser: ['EtezBotz','Safari','1.0.0'],
 auth: state
 })
 title()
@@ -53,7 +53,7 @@ const callerId = json.content[0].attrs['call-creator']
 if (json.content[0].tag == 'offer') {
 let latna = await Manik.sendContact(callerId, global.owner)
 Manik.sendMessage(callerId, { text: `Automatic block system!\nDon't call bot!\nPlease contact the owner to open !`}, { quoted : latna })
-Manik.sendMessage(`62881027694993@s.whatsapp.net`, {text: '*Report Bot:*'+ callerId+ 'Called Bot'})
+Manik.sendMessage(`6285797375014@s.whatsapp.net`, {text: '*Report Bot:*'+ callerId+ 'Called Bot'})
 await sleep(8000)
 await Manik.updateBlockStatus(callerId, "block")
 }
