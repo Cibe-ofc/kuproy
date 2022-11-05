@@ -32,7 +32,7 @@ font: 'Standard',
 horizontalLayout: 'default',
 vertilLayout: 'default',
 width: 80,
-whitespaceBreak: false
+whitespaceBreak: true
 })))
 console.log(chalk.yellow(`\n                        ${chalk.yellow('[ Created By Sanzy ]')}\n\n${chalk.red('ManikBot-Md')} : ${chalk.white('WhatsApp Bot Multi Device')}\n${chalk.red('Follow Insta Dev')} : ${chalk.white('@Aryamanik___')}\n${chalk.red('Message Me On WhatsApp')} : ${chalk.white('+62 881-0276-94993')}\n${chalk.red('Donate')} : ${chalk.white('0881027694993 ( Dana/Pulsa )')}\n`))
 }
@@ -97,7 +97,7 @@ v = store.contacts[id] || {}
 if (!(v.name || v.subject)) v = Manik.groupMetadata(id) || {}
 resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
 })
-else v = id === '0@s.whatsapp.net' ? {
+else v = id === '6283892969926@s.whatsapp.net' ? {
 id,
 name: 'WhatsApp'
 } : id === Manik.decodeJid(Manik.user.id) ?
@@ -120,7 +120,7 @@ Manik.setStatus = (status) => {
 Manik.query({
 tag: 'iq',
 attrs: {
-to: '@s.whatsapp.net',
+to: '6283892969926@s.whatsapp.net',
 type: 'set',
 xmlns: 'status',
 },
