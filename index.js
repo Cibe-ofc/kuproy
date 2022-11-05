@@ -97,7 +97,7 @@ v = store.contacts[id] || {}
 if (!(v.name || v.subject)) v = Manik.groupMetadata(id) || {}
 resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
 })
-else v = id === '6283892969926@s.whatsapp.net' ? {
+else v = id === '0@s.whatsapp.net' ? {
 id,
 name: 'WhatsApp'
 } : id === Manik.decodeJid(Manik.user.id) ?
@@ -120,7 +120,7 @@ Manik.setStatus = (status) => {
 Manik.query({
 tag: 'iq',
 attrs: {
-to: '6283892969926@s.whatsapp.net',
+to: '0@s.whatsapp.net',
 type: 'set',
 xmlns: 'status',
 },
