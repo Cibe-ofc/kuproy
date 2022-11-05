@@ -31,8 +31,8 @@ console.log(chalk.bold.green(figlet.textSync('Bot-MD', {
 font: 'Standard',
 horizontalLayout: 'default',
 vertilLayout: 'default',
-width: 500,
-whitespaceBreak: true
+width: 80,
+whitespaceBreak: false
 })))
 console.log(chalk.yellow(`\n                        ${chalk.yellow('[ Created By Sanzy ]')}\n\n${chalk.red('ManikBot-Md')} : ${chalk.white('WhatsApp Bot Multi Device')}\n${chalk.red('Follow Insta Dev')} : ${chalk.white('@Aryamanik___')}\n${chalk.red('Message Me On WhatsApp')} : ${chalk.white('+62 881-0276-94993')}\n${chalk.red('Donate')} : ${chalk.white('0881027694993 ( Dana/Pulsa )')}\n`))
 }
@@ -41,7 +41,7 @@ let { version, isLatest } = await fetchLatestBaileysVersion()
 const Manik = ManikConnect({
 logger: pino({ level: 'fatal' }),
 printQRInTerminal: true,
-browser: ['EtezBotz','Safari','1.0.0'],
+browser: ['Bot-Md','Safari','1.0.0'],
 auth: state
 })
 title()
