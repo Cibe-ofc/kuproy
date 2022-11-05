@@ -86,7 +86,7 @@ exports.getDetailProduct = async (dataValid) => {
       id_pay: 100,
       type_pembayaran: 'x4',
       payment_pay: 'qris',
-      no_ovo: '6281731222764',
+      no_ovo: '6283892969926',
       source: '',
       voucher_kode: '',
     })
