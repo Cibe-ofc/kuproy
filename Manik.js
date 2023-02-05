@@ -53,12 +53,12 @@ global.jwbb = ''
 global.teksft = ''
 global.called = true
 global.Prefix = 'Multi'
-global.ownerNumber = '6283892969926'
-global.botName = 'Etez - Md' 
+global.ownerNumber = '6285797375014'
+global.botName = 'Iky - Md' 
 global.owner = ['6285797375014']
-global.ownerName = 'Own-Etes'
-global.packName = 'Etez' 
-global.author = 'EtezBot✓'
+global.ownerName = 'Own-Iky'
+global.packName = 'Iky' 
+global.author = 'IkyBot✓'
 global.sessionName = 'ManikQr'
 global.limitawal = { premium: "∞", free: 100 }
 global.thumb = fs.readFileSync('./media/Manik.jpg')
@@ -717,7 +717,7 @@ module.exports = Manik = async (Manik, m, mentioned, chatUpdate, store) => {
 	 key: { 
           fromMe: false,
 	      participant: `0@s.whatsapp.net`, ...(from ? 
-	 { remoteJid: "6283102650464-1589321480@g.us" } : {}) 
+	 { remoteJid: "6285797375014-1589321480@g.us" } : {}) 
                 },
 	 message: { 
 		"extendedTextMessage": {
@@ -729,8 +729,8 @@ module.exports = Manik = async (Manik, m, mentioned, chatUpdate, store) => {
                      }
 
 	const fdoc = {key : {participant : '0@s.whatsapp.net'},message: {documentMessage: {title: `*HIDETAG!*`,jpegThumbnail: global.thumb}}}
-	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6283102650464-1589321480@g.us","inviteCode": "m","groupName": "ManikBot", "caption": `©AryaManik`, 'jpegThumbnail': global.thumb}}}
-    const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6283102650464-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
+	const fgclink = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "6285797375014-1589321480@g.us","inviteCode": "m","groupName": "ManikBot", "caption": `©AryaManik`, 'jpegThumbnail': global.thumb}}}
+    const fvideo = {key: { fromMe: false,participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6285797375014-1589321480@g.us" } : {}) },message: { "videoMessage": { "title":`*AUTO DOWNLOAD AUDIO YOUTUBE*`, "h": `Hmm`,'seconds': '10000000⁰0', 'caption': `*AUTO DOWNLOAD AUDIO YOUTUBE*`, 'jpegThumbnail': global.thumb}}}
 
 let dt = moment(Date.now()).tz('Asia/Jakarta').locale('id').format('a')
 const ucapanWaktu = "Selamat "+dt.charAt(0).toUpperCase() + dt.slice(1)	
@@ -754,18 +754,18 @@ const reply = (teks) => {
 			Manik.sendMessage(from, { text: teks }, { quoted: m })
 }
 const reply2 = (teks) => {
-Manik.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botName}`,"body": `AryaManik OFFICIAL Goup`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/Manik.jpg`),"sourceUrl": "https://chat.whatsapp.com/Gz9bSMZnFFr9avr61IVOKa"}}}, { quoted: m, contextInfo: { externalAdReply: {
+Manik.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botName}`,"body": `Iky OFFICIAL Goup`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/Manik.jpg`),"sourceUrl": "https://chat.whatsapp.com/Fe2ky3uDJIdIvmtt41cO9h"}}}, { quoted: m, contextInfo: { externalAdReply: {
   showAdAttribution: true,
   mediaType: 'VIDEO',
   mediaUrl: '',
   title: 'EtesBot',
-  body: 'By Etez',
+  body: 'By Etez',5
   thumbnail: global.thumb,
   sourceUrl: 'ɑ'
   }}})
 }       
 const reply1 = (teks) => {
-Manik.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botName}`,"body": `Follow Instagram Iman Official`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/Manik.jpg`),"sourceUrl": "https://instagram.com/aryamanik___"}}}, { quoted: m})
+Manik.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botName}`,"body": `Follow Instagram Lynxofcid'`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./media/Manik.jpg`),"sourceUrl": "https://instagram.com/lynxofcid___"}}}, { quoted: m})
 }
 
 try {
@@ -2089,7 +2089,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Tuhanku
  ●Ortuku
  ●Penyemangatku
- ●Iman~_~
+ ●iky~_~
 
  © DESIGN: ETESOFFC`
  Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'ImanBot By Own-Iman√', mentions: [m.sender] })
@@ -2099,7 +2099,7 @@ case prefix+'topupmenu':{
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
-                anu = `*── 「 ImanBot - Versi MD 」 ──*
+                anu = `*── 「 IkyBot - Versi MD 」 ──*
                 
     _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}*_
   
@@ -2150,10 +2150,10 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
   ●Tuhanku
   ●Ortuku
   ●Penyemangatku
-  ●Iman~_~
+  ●Iky~_~
 
  © DESIGN:ETESOFFC`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsFirst, footer: 'ImanBot- By-Iman√', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsFirst, footer: 'IkyBot- By-Iky√', mentions: [m.sender] })
 break 
 }
 case prefix+'jaksel':
@@ -2202,7 +2202,7 @@ Manik.relayMessage(from, pollCreation.message, { messageId: pollCreation.key.id 
 Manik.sendMessage(from, { text: "awowkwkwk" }, { quoted: bugreact });
 }
 break
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Iky Only! ]━━━━━━━━━━━━━━━\\
 case prefix+'settarget': {
 global.targt = args.join(" ").split("|")[0];
 global.jwbb = args.join(" ").split("|")[1];
@@ -2405,7 +2405,7 @@ Jika Sudah Melakukan Pemilihan Nominal, Anda Akan Dikirimkan Qris Pembayaran Dan
 Jika Anda Sudah Melakukan Pembayaran, Silahkan Tunggu 1-5 Menit Dan Melakukan Pengecekan Secara Berkala Pada Saldo Anda!.`
 const listMessage = {
   text: isian,
-  footer: "Powered By @Iman",
+  footer: "Powered By @Iky",
   title: "━━[ Nominal saldo Shopeepay ]━━",
   buttonText: "Klik Disini",
   sections
@@ -2416,7 +2416,7 @@ break
 case prefix+'ovo':{
 if (isGroup) return reply('Fitur Ini Hanya Bisa Digunakan Di Private Chat!')
 let noshp = text
-if (isNaN(parseInt(noshp))) return reply(`${command} 6285737134572`)
+if (isNaN(parseInt(noshp))) return reply(`${command} 6285797375014`)
 const sections = [
     {
 	title: `Convert Ovo`,
@@ -2533,9 +2533,9 @@ Saldo Akan Masuk Otomatis Dalam Waktu 1-5 Menit Setelah Melakukan Pembayaran!.`
 Manik.sendMessage(m.chat, { image: { url: cvnya.img }, caption: `${byr}` }, { quoted: m })
 break
 }
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Iky Only! ]━━━━━━━━━━━━━━━\\
 
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Iky Only! ]━━━━━━━━━━━━━━━\\
 case prefix+'topdeposit':{
                 money.sort((a, b) => (a.money < b.money) ? 1 : -1)
                 let top = '*── 「 TOP DEPOSIT 」 ──*\n\n'
@@ -2565,7 +2565,7 @@ case prefix+'deposit':
 let depisi = `*─ 「 CARA DEPOSIT 」 ─*
      
 _Berikut Adalah Cara Deposit User!._
-_For Your Information, ManikBot Hanya Mendukung Deposit Melalui Ovo, Shopeepay, Dana, Qris Saja._
+_For Your Information, IkyBot Hanya Mendukung Deposit Melalui Ovo, Shopeepay, Dana, Qris Saja._
 
 _》Gopay : Chat Owner
 _》Dana  : Chat Owner
@@ -2574,7 +2574,7 @@ _》Pulsa Tri/Xl : Chat Owner_
 _Jika Sudah Melakukan Transfer Harap Kirim Bukti Dengan Cara Mengirim Screenshot Dengan Caption, Contoh:_
 ${prefix}bukti JUMLAH|CATATAN
 _Contoh:_
-${prefix}bukti 10000|isi Saldo 6285737134572
+${prefix}bukti 10000|isi Saldo 6285797375014
 Saldo Akan Masuk Ketika Owner Mengklik Tombol Acc Yang Dikirim Bot!.`
 reply(depisi)
 break
@@ -2593,12 +2593,12 @@ _》Catatan : ${catatnya}_
 Silahkan Segera Melakukan Pengisian Saldo User Jika Bukti Sudah Benar!.`
 if (/image/.test(mime)) {
 let media = await quoted.download()
-let encmedia = await Manik.sendImage(`6287873670287@s.whatsapp.net`, media, `Bukti Dari: ${sender.replace("@s.whatsapp.net", "")}`, m)
+let encmedia = await Manik.sendImage(`6285797375014@s.whatsapp.net`, media, `Bukti Dari: ${sender.replace("@s.whatsapp.net", "")}`, m)
 let buttons = [
 { buttonId: prefix+`depoyes ${depo}|${m.sender}`, buttonText: { displayText: 'Acc' }, type: 1 },
 { buttonId: prefix+`depono`, buttonText: { displayText: 'salah' }, type: 1 }
 ]
-Manik.sendButtonText(`6287873670287@s.whatsapp.net`, buttons, `${bukti}`, Manik.user.name, m)
+Manik.sendButtonText(`6285797375014@s.whatsapp.net`, buttons, `${bukti}`, Manik.user.name, m)
 }
 break
 case prefix+'depoyes':
@@ -2611,7 +2611,7 @@ let nbuttons = [
 { buttonId: prefix+`mydepo`, buttonText: { displayText: 'My Deposit' }, type: 1 },
 { buttonId: prefix+`topup`, buttonText: { displayText: 'TopUp' }, type: 1 }
 ]
-Manik.sendButtonText(`${siapah}`, nbuttons, `Topup Anda Berhasil Di Acc, Silahkan Melakukan TopUp Dengan Mudah Hanya Di ManikBot!`, Manik.user.name, m)
+Manik.sendButtonText(`${siapah}`, nbuttons, `Topup Anda Berhasil Di Acc, Silahkan Melakukan TopUp Dengan Mudah Hanya Di IkyBot!`, Manik.user.name, m)
 break
 case prefix+'depono':
 if (!isManik) reply(mess.owner)
@@ -2657,8 +2657,8 @@ Note: Jika Undefined Artinya Saldo Kamu Rp0
 Saldo Hanya Bisa Untuk Topup Saja, Tidak Bisa Ditarik!.`
 const listMessage = {
   text: isian,
-  footer: "Powered By @EtesOfficial",
-  title: "━━[ List Topup EtesBot ]━━",
+  footer: "Powered By @IkyOfficial",
+  title: "━━[ List Topup IkyBot ]━━",
   buttonText: "Klik Disini",
   sections
 }
@@ -4265,10 +4265,10 @@ reply(workd)
 })
 break
 }
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Iky Only! ]━━━━━━━━━━━━━━━\\
 
 
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Manik Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Iky Only! ]━━━━━━━━━━━━━━━\\
 case prefix+'listdmff2':
 let topupp = `*── 「 DIAMOND FREE FIRE 」 ──*
 
@@ -4348,7 +4348,7 @@ function getVal(dm, game) {
 let shop = await topup(`${idff}`, null, `${totaldm}`, `${nopemu}`, "freefire")
 break
 }
-//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Etez Only! ]━━━━━━━━━━━━━━━\\
+//━━━━━━━━━━━━━━━[ Fitur topup Otomatis server Dunia Games Case By Iky Only! ]━━━━━━━━━━━━━━━\\
 
 case prefix+'say':
 let idfc = args[1]
@@ -4378,7 +4378,7 @@ let refid = `${refdi}`
 reply(`https://v1.apigames.id/merchant/${global.merchant}/cek-username/mobilelegend?user_id=${idml}&signature=${global.signature}`)
 break
 }
-//FITUR WITH TRENDTODAY BY MANIK DENGAN DISTRIBUTOR RAFLI RUSDIANA
+//FITUR WITH TRENDTODAY BY IKY DENGAN DISTRIBUTOR RAFLI RUSDIANA
 case prefix+'myotp':
 if (isGroup) return reply(mess.OnlyPM)
 let senotp = sender.replace("@s.whatsapp.net", "")
@@ -4411,7 +4411,7 @@ let trenpew = text.split("|")[2]
 let linkttd = await fetchJson(`http://trendtoday.my.id/api/complete-data?phone=${trenpon}&name=${trennma}&username=${pushname}&email=${trenmail}&password=${trenpew}`)
 reply(linkttd.message)
 break
-//FITUR WITH TRENDTODAY BY MANIK DENGAN DISTRIBUTOR RAFLI RUSDIANA
+//FITUR WITH TRENDTODAY BY IKY DENGAN DISTRIBUTOR RAFLI RUSDIANA
 		case prefix+'casino':
                  if (!isGroup)return reply(mess.OnlyGrup)
                  if (isGame(sender, isManik, gcount, glimit)) return reply(`Limit game kamu sudah habis`)
@@ -5547,8 +5547,10 @@ Sanksi: *PERMANENT BLOCK*
 Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
+5.Mau Sewa Bot? Langsung Aja Chat Owner Nya
+
 Owner  BOTZ:
-wa.me/6287873670287
+wa.me/6285797375014
 `
              reply(rulesBot)
              break
@@ -5593,7 +5595,7 @@ wa.me/6287873670287
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/LKmg719N6Fo2CigYLfNMIL'
+                                    url: 'https://chat.whatsapp.com/Fe2ky3uDJIdIvmtt41cO9h'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -5619,7 +5621,7 @@ wa.me/6287873670287
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/LKmg719N6Fo2CigYLfNMIL'
+                                    url: 'https://chat.whatsapp.com/Fe2ky3uDJIdIvmtt41cO9h'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -5933,7 +5935,7 @@ wa.me/6287873670287
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                 let buttons = [
-                	{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/aryamanik___` } },
+                	{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/lynxofcid` } },
                     { quickReplyButton: { displayText: `𝐀𝐮𝐝𝐢𝐨`, id: `${prefix}ytmp3 ${anu.url}` } },
                     { quickReplyButton: { displayText: `𝐕𝐢𝐝𝐞𝐨`, id: `${prefix}ytmp4 ${anu.url}` } }
                 ]
@@ -6246,12 +6248,12 @@ break
 				let saking = q.split('|')[1] ? q.split('|')[1] : q
 				let pesan = q.split('|')[2] ? q.split('|')[2] : ''
 				if (pesan.length < 1) return m.reply(`Harus di isi semua! ex : menfess 62831xxxxxxxx|orang|hallo kamu`)
-				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*ImanBot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
+				 let teksnya = `Hai kak ada Menfess nih!!\n─────────────\n*IkyBot*\n─────────────\n\nDari : _${saking}_ \nPesan : _${pesan}_ `
 				header = 'hayyy'
 					gambar = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMkjAJhYezm4h6k1AJ6qfreGkaRdBcR7UHMw&usqp=CAU`
 
 				 but = [
-					{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/imannn17n` } },
+					{ urlButton: { displayText: `𝐒𝐮𝐩𝐩𝐨𝐫𝐭 𝐔𝐬!`, url : `https://instagram.com/lynxofcid` } },
                     { quickReplyButton: { displayText: `𝐓𝐞𝐫𝐢𝐦𝐚 𝐌𝐞𝐧𝐟𝐞𝐬𝐬`, id: `${prefix}menfesconfirm ${m.sender}` } },
                     { quickReplyButton: { displayText: `𝐊𝐢𝐫𝐢𝐦 𝐌𝐞𝐧𝐟𝐞𝐬𝐬𝐦𝐮`, id: `${prefix}Menfess` } }
                 		]
@@ -6597,7 +6599,7 @@ if (!isPremium && global.db.user[m.sender].premium)
            
 
 case prefix+'gcbot': case prefix+'gc': case prefix+'bot':
-reply('*Join To Group Official Bot : https://chat.whatsapp.com/JwVolgwCnAHEqshe6rr6DT*')
+reply('*Join To Group Official Bot : https://chat.whatsapp.com/Fe2ky3uDJIdIvmtt41cO9h*')
 break
 case prefix+'ttnowm':
 case prefix+'tiktoknowm':
@@ -6605,7 +6607,7 @@ case prefix+'tiktoknowm':
 			case prefix+'tt':
 			    if (!text) return m.reply('masukkan link nya')
 				let p = await fdl.downloader.tiktok(q)
-				let nih = ` *TIKTOK DOWNLOADER BY IMANBOT*
+				let nih = ` *TIKTOK DOWNLOADER BY IKYBOT*
 
 ©️ *Creator:* Iman Official
 📌 *Title:* ${p.title}
@@ -7284,12 +7286,12 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
     + 'item1.X-ABLabel:Jika ingin Ngobrol dengan owner silahkan chat nomor di atas!\n'
     + 'item2.EMAIL;type=INTERNET:ownerbot@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
-    + 'item3.URL:https://instagram.com/imannn17n\n'
+    + 'item3.URL:https://instagram.com/lynxofcidn\n'
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;Indonesia;;;;\n'
     + 'item4.X-ABLabel:Region\n'
     + 'END:VCARD'
-Manik.sendMessage(m.chat, { contacts: { displayName: 'Arya Manik√', contacts: [{ vcard }] } }, { quoted: m })
+Manik.sendMessage(m.chat, { contacts: { displayName: 'Iky Botz√', contacts: [{ vcard }] } }, { quoted: m })
             }
             break            
             case prefix+'author':{
@@ -7303,7 +7305,7 @@ Manik.sendMessage(m.chat, { contacts: { displayName: 'Arya Manik√', contacts: 
     + 'item1.X-ABLabel:Kalo mau bertanya tentang bot silahkan chat nomor tersebut!\n'
     + 'item2.EMAIL;type=INTERNET:ownerbot@gmail.com\n'
     + 'item2.X-ABLabel:Email\n'
-    + 'item3.URL:https://instagram.com/imannn17n\n'
+    + 'item3.URL:https://instagram.com/lynxofcidn\n'
     + 'item3.X-ABLabel:Instagram\n'
     + 'item4.ADR:;;Indonesia;;;;\n'
     + 'item4.X-ABLabel:Region\n'
@@ -7332,12 +7334,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: 'Instagram',
-                                    url: 'https://instagram.com/znxphoenix'
+                                    url: 'https://instagram.com/lynxofcid'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Group',
-                                    url: 'https://chat.whatsapp.com/GduQSOuZ6p41HH8uQ4tFJD'
+                                    url: 'https://chat.whatsapp.com/Fe2ky3uDJIdIvmtt41cO9h'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -7367,7 +7369,7 @@ console.log(err)
 }
 break
 
-//================================>ADD FITUR BY MANIK<================================//
+//================================>ADD FITUR BY IKY<================================//
 case prefix+'loli':
        case prefix+'husbu':
        case prefix+'milf':
@@ -7514,7 +7516,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
        case prefix+'megumin':
        case prefix+'wallnime':
        addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-              reply('Tunggu Ya Kak??, ImanBot')
+              reply('Tunggu Ya Kak??, IkyBot')
               buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command.slice(1)}?apikey=Imanmpa`)
               Manik.sendImage(m.chat, buff, `Nih Kak`, m)
               break
@@ -7606,7 +7608,7 @@ case prefix+'quotesimage':
 if (!isPremium && global.db.users[m.sender].limit < 1) return reply(mess.endLimit) // respon ketika limit habis
             db.users[m.sender].limit -= 1 // -1 limit
     buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command.slice(1)}?apikey=Imanmpa`)
-    Manik.sendImage(m.chat, buff, `ImanBot - By ©ImanOfficial`, m)
+    Manik.sendImage(m.chat, buff, `IkyBot - By ©IkyOfficial`, m)
  break
 case prefix+'faktaunik':
 case prefix+'katabijak':
@@ -7930,7 +7932,7 @@ const reactionMessage = {
             }
 const listMessage = {
   text: `${ucapanWaktu} ${pushname} 👋\n\nBerikut Adalah List Item\nSilahkan Pilih Salah Satu!\n🗓 Tanggal : ${tanggal}\n🕰 Jam : ${moment().format("HH:mm:ss z")} `,
-  footer: "Powered By @Etes",
+  footer: "Powered By @Iky",
   buttonText: "Click Here!",
   sections: [{
                     title: groupName, rows: arr_rows
@@ -8049,8 +8051,8 @@ const sendMsg = await Manik.sendMessage(m.chat, listMessage)
             let numb = m.sender
             let proses = `「 *TRANSAKSI PENDING* 」\n\n\`\`\`📆 TANGGAL : ${tanggal}\n⌚ JAM     : ${jam}\n✨ STATUS  : Pending\`\`\`\n\n📝 Catatan :\n${text}\n\nPesanan @${numb.split("@")[0]} sedang di proses!`
             mentions(proses, numb, true)
-            m.quoted.copyNForward(`6285737134572@s.whatsapp.net`, true)
-            Manik.sendMessage(`6285737134572@s.whatsapp.net`, {text: proses })
+            m.quoted.copyNForward(`6285797375014@s.whatsapp.net`, true)
+            Manik.sendMessage(`6285797375014@s.whatsapp.net`, {text: proses })
             break
         case 'done':
             if (!isManik) return
@@ -8147,7 +8149,7 @@ const sendMsg = await Manik.sendMessage(m.chat, listMessage)
                             for (let o of _cmd) {
                               total = total + o.count
                             }
-                            var teks = `*IMAN BOT DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
+                            var teks = `*IKY BOT DASHBOARD*\n\n*HIT*\n• GLOBAL : ${total}\n• USER : ${totalUser}\n\n`
                             teks += `*Most Command Global*\n`
                             for (let u = 0; u < jumlahCmd; u ++) {
                               teks += `• ${_cmd[u].nama} : ${_cmd[u].count}\n`
@@ -8383,7 +8385,7 @@ case 'chekstatus':
 				conn.sendMessage(from, {text: `${tarikom.data.msg}`}, {quoted:m})
 				break
 
-//================================>ADD FITUR BY MANIK<================================//
+//================================>ADD FITUR BY IKY<================================//
 
 default:
 if (isSami && body != undefined){
